@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <title>Website</title>
+    <link rel="icon" type="image/x-icon" href="favicon2.ico">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: powderblue;
+        }
+    </style>
+</head>
+<body>
+
+<img src="avatar.png" alt="My avatar" width="150" height="150">
+<br>
+<h1 style="text-align:center;">IronGold</h1> 
+<hr>
+
+<p style="font-size:200%; font-family:Arial;">CSS Styles</p>
+<p style="font-size:15px;">Learning HTML</h3> <!--размер текста-->
+<p style="font-size:150%;">Nothing here</h3> <!--можно и так-->
+<p style="text-align:center;">Here some text</p> <!--форматирование по центру-->
+<p style="color:royalblue; font-size:150%;">Colored text</p>
+<hr> <!--тематический разрыв строки-->
+
+<p title="Я здесь" style="font-family:Verdana;" >I am 4k showcaser</p> 
+<a href="https://vk.com/irongolf">Мой ВКонтакте</a>
+<hr>
+
+<pre> <!--элемент видит отформатированный текст-->
+    Here some text.
+
+    You can use new line.
+
+    And you will see it.
+</pre>
+<hr>
+
+<h3 style="font-family:Arial">Форматирование текста</h3>
+<p><b>This text is bold</b></p>
+<p><strong>This text is important!</strong></p>
+<p><i>Italic text</i></p>
+<p><em>Some text</em></p> <!--текст произносится с ударением-->
+<p><small>Small text</small></p>
+<p>Mark <mark>text</mark></p>
+<p>Deleted <del>text</del></p>
+<p>Some <ins>text</ins></p> <!--можно использовать как просто подчеркнутый-->
+<p>This is <sub>subscripted</sub> text</p> <!--H<sub>2</sub>-->
+<p>This is <sup>superscripted</sup> text</p>
+    <!--<b> - Полужирный текст
+    <strong> - Важный текст
+    <i> - Курсивный текст
+    <em> - Подчеркнутый текст
+    <mark> - Помеченный текст
+    <small> - Уменьшенный текст
+    <del> - Удаленный текст
+    <ins> - Вставленный текст
+    <sub> - Подстрочный текст
+    <sup> - Надстрочный текст-->
+<hr>
+
+<h3>HTML Quotations</h3>
+<blockquote cite="https://www.w3schools.com/html/default.asp">
+<pre>
+HTML is the standard markup language for Web pages.
+With HTML you can create your own Website.
+HTML is easy to learn - You will enjoy it!
+</pre>
+</blockquote>
+<p>Some text: <q>quotation</q></p>
+<p>This is <abbr title="Cascading Style Sheets">CSS</abbr></p>
+<address>
+Maded by IronGold<br>
+Used HTML<br>
+Russia
+</address>
+<p><cite>Title</cite> of smth.</p>
+<bdo dir="rtl">Some text</bdo>
+<hr>
+
+<h4>CSS Colors</h4>
+<p style="border: 2px solid tomato;">Some text</p>
+<p style="border: 2px solid dodgerblue;">Some text</p>
+<p style="border: 2px solid violet">Some text</p>
+<p style="background-color:rgb(0, 255, 255);">Some text</p>
+<p style="border: 2px solid blue; padding: 20px;">Some text</p> <!--padding-->
+<p style="margin: 20px;">Some text with margin</p>
+<a href="https://vk.com/irongolf" target="_blank">Link</a> <!--открывает ссылку в новом окне-->
+<br>
+<a href="https://vk.com/irongolf" target="_blank">
+    <img src="avatar.png" title="Why you here?" alt="Link in img" width="50" height="50"> <!--image like a link-->
+</a>
+<br>
+<a href="mailto:oleg022009@gmail.com">Send email</a>
+<br>
+<button onclick="document.location='some.html'">Some</button>
+<br>
+<br>
+<a href="https://vk.com/irongolf" target="_blank" class="link1">Some Link</a>
+<br>
+<br>
+<a href="https://vk.com/irongolf" target="_blank" class="link2">Link 2</a>
+<hr>
+<a href="#10">Jump to 10 text</a>
+<a href="#4">Jump to 4 text</a>
+<p>1 text</p>
+<p>2 text</p>
+<p>3 text</p>
+<p id="4">4 text</p>
+<p>5 text</p>
+<p>6 text</p>
+<p>7 text</p>
+<p>8 text</p>
+<p>9 text</p>
+<p id="10">10 text</p>
+<hr>
+<h3>Карты изображений</h3>
+<img src="avatar.png" width="200" height="200" usemap="#map">
+<map name="map">
+    <area shape="poly" coords="84,15,16,83,116,181,185,112" href="https://vk.com/irongolf" target="_blank">
+</map>
+<hr>
+<table style="width:100%">
+    <caption>Tables learning</caption>
+    <tr>
+        <th>Name</th>
+        <th>Number</th>
+        <th>Email</th>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>+79130232561</td>
+        <td>example@gmail.com</td>
+    </tr>
+    <tr>
+        <td>Michail</td>
+        <td>+79130834789</td>
+        <td>example@gmail.com</td>
+    </tr>
+</table>
+<br>
+<table style="width:100%">
+    <tr>
+        <th colspan="2">Some heading</th>
+        <th>Some heading</th>
+    </tr>
+    <tr>
+        <td>Some date</td>
+        <td>Some date</td>
+        <td>Some date</td>
+    </tr>
+</table>
+<br>
+<table style="width:100%">
+    <tr>
+        <th rowspan="2">Some horizontal heading</th>
+        <td>Something</td>
+    </tr>
+    <tr>
+        <td>Something</td>
+    </tr>
+</table>
+
+</body>
+</html>

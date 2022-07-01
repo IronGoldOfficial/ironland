@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Font;
+    src: url(../fonts/gteestiprodisplay_thin.otf);
+}
+
+p {
+    font-family: Font;
+}
+
+h3 {
+    font-family: Font;
+}
+
+h1 {
+    font-family: Font;
+}
+
+pre {
+    font-family: Font;
+}
+
+a {
+    font-family: Font;
+}
+bdo {
+    font-family: Font;
+}
+
+address {
+    font-family: Font;
+}
+
+* {
+    font-family: Font;
+}
+
+a.link1:visited {
+    color:skyblue;
+    text-decoration: underline;
+}
+
+a.link1:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a.link2:link, a.link2:visited {
+    background-color: grey;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+a.link2:hover, a.link2:active {
+    background-color: rgb(63, 63, 63);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+}
